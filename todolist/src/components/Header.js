@@ -12,7 +12,7 @@ class Header extends Component {
             Todo List
           </HeaderButton>
         ) : null}
-        <HeaderButton onClick={this.props.onLoadAuth}>Auth</HeaderButton>
+        <HeaderButton onClick={this.props.onLoadAuth}>{context.status?'Log Out': 'Log In'}</HeaderButton>
       </HeaderContainer>
     );
   }

@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const HeaderContainer = styled.header`
-    background-color:#F4B433;
+    background-color:black;
     height:50px;
     width: 100%;
     margin:0px;
@@ -22,7 +22,7 @@ export const HeaderButton = styled.button`
     font-weight:bold;
     font-size:18px;
     color:#FFF;
-    background-color:#F4B433;
+    background-color:red;
     border:none;
     margin-bottom: 10px;
     border-bottom: solid 3px #FFF;
@@ -31,7 +31,7 @@ export const HeaderButton = styled.button`
     outline:none;
 
     :hover{
-        background-color: #D69E2B;
+        background-color: gray;
         cursor: pointer;
     }
 `;
@@ -50,19 +50,19 @@ export const Section = styled.section`
 `;
 
 export const AuthButton = styled.button`
-    background-color:#FFF;
+    background-color:red;
     border:none;
-    border: 3px solid #F4B433;
+    border: 3px solid black;
     width:auto;
     max-height: 50%;
     height:10%;
     font-size:25px;
-    color:#F4B433;
+    color:black;
     border-radius:15px;
     margin-top: 10vh;
     outline:none;
     :hover{
-        background-color: #F4B433;
+        background-color: black;
         color:#FFF;
         cursor: pointer;
     }
@@ -70,18 +70,18 @@ export const AuthButton = styled.button`
 export const LogButton = styled.button`
     background-color:#FFF;
     border:none;
-    border: 3px solid #B44;
+    border: 3px solid black;
     width:auto;
     max-height: 50%;
     height:10%;
     font-size:25px;
-    color:#B44;
+    color:red;
     border-radius:15px;
     margin-top: 10vh;
     outline:none;
     :hover{
-        background-color: #B44;
-        color:#FFF;
+        background-color: black;
+        color:red;
         cursor: pointer;
     }
 `
@@ -99,9 +99,9 @@ export const TodoContainer = styled.div`
 `;
 
 export const TodoInput = styled.input`
-    background-color:#FFF;
+    background-color:black;
     border:none;
-    border: 3px solid #F4B433;
+    border: 3px solid #gray;
     width:45%;
     padding: 15px;
     font-size:35px;
@@ -112,9 +112,9 @@ export const TodoInput = styled.input`
 `
 
 export const TodoButton = styled.button`
-    background-color:#F4B433;
+    background-color:red;
     border:none;
-    border: 3px solid #F4B433;
+    border: 3px solid black;
     width:65px;
     height:65px;
     font-size:40px;
@@ -123,7 +123,7 @@ export const TodoButton = styled.button`
     margin-left:15px;
     outline:none;
     :hover{
-        background-color: #D69E2B;
+        background-color: black;
         color:#FFF;
         cursor: pointer;
     }
@@ -131,26 +131,26 @@ export const TodoButton = styled.button`
 
 export const TodoListElement = styled.ul`
     list-style: #F4B433;
-    background-color:#FFF;
+    background-color:red;
     border:none;
-    border-bottom: 3px solid #F4B433;
-    border-right: 3px solid #F4B433;
+    border-bottom: 3px solid red;
+    border-right: 3px solid red;
     width:60%;
     box-shadow: 5px 5px rgba(50, 50, 50, 0.7);
 `
 
 export const TodoLi = styled.li`
-    background-color:#FFF;
+    background-color:lightgray;
     border:none;
     border-bottom: 1px solid rgba(50, 50, 50, 0.7);
     width:100%;
     font-size:35px;
     font-weight:100;
-    color:#555;
+    color: black;
     letter-spacing:3px;
     :hover{
         background-color: #444;
-        color:#F4B433;
+        color:red;
         cursor: pointer;
     }
 `

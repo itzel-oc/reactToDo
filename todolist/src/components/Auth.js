@@ -10,13 +10,13 @@ class Auth extends Component {
             let buttonToDisplay = status ? (
               <Section>
                 <LogButton onClick={logout}>
-                  Haz click aquí para cerrar sesión
+                  Cerrar Sesión
                 </LogButton>
               </Section>
             ) : (
               <Section>
                 <AuthButton onClick={login}>
-                  Haz click aquí para iniciar sesión
+                  Iniciar sesión
                 </AuthButton>
               </Section>
             )
